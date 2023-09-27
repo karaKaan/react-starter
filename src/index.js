@@ -1,20 +1,18 @@
+import { MantineProvider, createTheme } from "@mantine/core";
+import { Notifications } from "@mantine/notifications";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./pages/App";
-import { createTheme } from "@mantine/core";
-import { MantineProvider } from "@mantine/core";
-import { Notifications } from "@mantine/notifications";
 import { BrowserRouter } from "react-router-dom";
+import App from "./pages/App";
 
-import "@mantine/notifications/styles.css";
 import "@mantine/core/styles.css";
+import "@mantine/dates/styles.css";
+import "@mantine/notifications/styles.css";
 import "./global.css";
-
 
 const theme = createTheme({
   fontFamily: "inter,sans-serif",
 });
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
