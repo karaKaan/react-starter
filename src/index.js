@@ -10,7 +10,7 @@ import "@mantine/dates/styles.css";
 import "@mantine/notifications/styles.css";
 import "./global.css";
 
-const theme = createTheme({
+export const theme = createTheme({
   fontFamily: "inter,sans-serif",
 });
 
