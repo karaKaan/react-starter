@@ -6,6 +6,7 @@ specifiers:
   '@mantine/dates': ^7.1.0
   '@mantine/hooks': ^7.1.0
   '@mantine/notifications': ^7.1.0
+  '@tabler/icons-react': ^2.38.0
   '@testing-library/dom': ^9.3.3
   '@testing-library/jest-dom': ^6.1.3
   '@testing-library/react': ^14.0.0
@@ -29,6 +30,7 @@ dependencies:
   '@mantine/dates': 7.1.0_xc3usoa6gjzq7tfysx3w62ucsy
   '@mantine/hooks': 7.1.0_react@18.2.0
   '@mantine/notifications': 7.1.0_yumuunb62k6ry2ntkmop7smobi
+  '@tabler/icons-react': 2.38.0_react@18.2.0
   '@types/jest': 29.5.5
   axios: 1.5.1
   dayjs: 1.11.10
@@ -2578,6 +2580,20 @@ packages:
       loader-utils: 2.0.4
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@tabler/icons-react/2.38.0_react@18.2.0:
+    resolution: {integrity: sha512-4oLo7z7HkFQXZNNAo3tmhpdZTeFrSNSxngmrEOGZ6WsjT2WRlc6kcEHMVxfCekV19JeB6Yprg30Bdr4sUYJLiQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@tabler/icons': 2.38.0
+      prop-types: 15.8.1
+      react: 18.2.0
+    dev: false
+
+  /@tabler/icons/2.38.0:
+    resolution: {integrity: sha512-icDKK6n8jUYAavHK+L2Xe0/tYjwZVS7uhVazhCMVjdm3RfJLFbeLSNEIWcYdGOg6QAock9yqWse8hnhvsy2M3w==}
     dev: false
 
   /@testing-library/dom/9.3.3:
